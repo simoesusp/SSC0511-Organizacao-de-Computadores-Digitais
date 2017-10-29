@@ -1,0 +1,134 @@
+﻿Instrucoes processador ICMC:
+------------------------------------------------------------------------------
+1 - manipulacao de dados
+------------------------------------------------------------------------------
+
+Direto
+	STORE END, RX 		MEM(END) <- RX END	110001 | RX | xxx | xxx | x		
+	LOAD RX, END		RX <- MEM(END) END	110000 | RX | xxx | xxx | x
+										
+Indexado			
+	STOREI RX, RY 		MEM(RX) <- RY	   	111101 | RX | RY | xxx | x
+	LOADI RX, RY		RX <- MEM(RY)		111100 | RX | RY | xxx | x
+				
+Imediato			
+	LOADN RX, #NR		RX <- NR		111000 | RX | xxx | xxx | x
+			
+Movimentação			
+	MOV RX, RY		RX <- RY		111100 | RX | RY | xx | x0
+	MOV RX, SP		RX <- SP		111100 | RX | xxx | xx | 01
+	MOV SP, RX		SP <- RX		111100 | RX | xxx | xx | 11
+	
+------------------------------------------------------------------------------
+2 - Aritméticas:
+------------------------------------------------------------------------------
+
+	ADD RX, RY, RZ		RX<-RY+RZ	 	100000 | RX | RY | RZ | 0
+	ADDC RX, RY, RZ		RX<-RY+RZ+C	 	100000 | RX | RY | RZ | 1
+			
+	SUB RX, RY, RZ		RX<-RY-RZ	 	100001 | RX | RY | RZ | 0
+	SUBC RX, RY, RZ 	RX<-RY-RZ+C	 	100001 | RX | RY | RZ | 1
+		
+	MULT RX, RY, RZ 	RX<-RY*RZ	 	100010 | RX | RY | RZ | 0
+	MULTC RX, RY, RZ 	RX<-RY*RZ+C	 	100010 | RX | RY | RZ | 1
+		
+	DIV RX, RY, RZ 		RX<-RY/RZ	 	100011 | RX | RY | RZ | 0
+	DIVC RX, RY, RZ 	RX<-RY/RZ+C	 	100011 | RX | RY | RZ | 1
+		
+	INC RX			RX++	 		100100 | RX | 0 |xxx|xxx |
+	DEC RX			RX--			100100 | RX | 1 |xxx|xxx |
+			
+	MOD RX, RY, RZ		RX<-RY MOD RZ		100101 | RX | RY | RZ | x
+
+-----------------------------------------------------------------------------
+3 - Lógicas
+-----------------------------------------------------------------------------
+
+	AND RX, RY, RZ		RX<-RY AND RZ	 		010010 | RX | RY | RZ | x
+	OR RX, RY, RZ 		RX<-RY OR RZ	 		010011 | RX | RY | RZ | x
+	XOR RX, RY, RZ 		RX<-RY XOR RZ	 		010100 | RX | RY | RZ | x
+		
+	NOT RX, RY		RX<-NOT(RY)	 		010101 | RX | RY | xxx | x
+			
+	ROTL RX,n		ROTATE TO LEFT	 		010000 | RX | 10x | nnn | n
+	ROTR RX,n		ROTATE TO RIGHT 		010000 | RX | 11x | nnn | n
+		
+	SHIFTL0 RX,n		SHIFT TO LEFT (FILL 0) 		010000 | RX | 000 | nnn | n
+	SHIFTL1 RX,n		SHIFT TO LEFT (FILL 1) 		010000 | RX | 001 | nnn | n
+		
+	SHIFTR0 RX,n		SHIFT TO RIGHT (FILL 0) 	010000 | RX | 010 | nnn | n
+	SHIFTR1 RX,n		SHIFT TO RIGHT (FILL 1) 	010000 | RX | 011 | nnn | n
+		
+	CMP RX, RY 		FR<-COND	 		000101 | RX | RY | xxx | x
+
+-----------------------------------------------------------------------------
+4 - jump
+-----------------------------------------------------------------------------
+
+	JMP  END		PC<-END    unconditional	000010 | 0000 | x | xxxxx	
+	JEQ END 		PC<-END    EQual		000010 | 0001 | x | xxxxx
+	JNE END 		PC<-END    NotEqual		000010 | 0010 | x | xxxxx
+	JZ END 			PC<-END    Zero			000010 | 0011 | x | xxxxx
+	JNZ END 		PC<-END    NotZero		000010 | 0100 | x | xxxxx
+	JC END 			PC<-END    Carry		000010 | 0101 | x | xxxxx
+	JNC END 		PC<-END    NotCarry		000010 | 0110 | x | xxxxx
+	JGR END 		PC<-END    GReater		000010 | 0111 | x | xxxxx
+	JLE END 		PC<-END    LEsser		000010 | 1000 | x | xxxxx
+	JEG END 		PC<-END    EqualorGreater	000010 | 1001 | x | xxxxx
+	JEL END 		PC<-END    EqualorLesser	000010 | 1010 | x | xxxxx
+	JOV END 		PC<-END    Overflow (ULA)	000010 | 1011 | x | xxxxx
+	JNOV END 		PC<-END    NotOverflow		000010 | 1100 | x | xxxxx
+	JN END			PC<-END	   Negative (ULA	000010 | 1101 | x | xxxxx
+	JDZ END			PC<-END	   DivbyZero		000010 | 1110 | x | xxxxx
+
+
+-----------------------------------------------------------------------------
+5 - Call
+-----------------------------------------------------------------------------
+
+	CALL END	MEM(SP)<-PC 	Unconditional	000011 | 0000 | x | xxxxx
+			PC<-END 				END	
+			SP--
+	CEQ END 	idem 		EQual 			000011 | 0001 | x | xxxxx
+	CNE END 	idem  	 	NotEqual 		000011 | 0010 | x | xxxxx
+	CZ END 		idem	 	Zero 			000011 | 0011 | x | xxxxx
+	CNZ END 	idem	 	NotZero 		000011 | 0100 | x | xxxxx
+	CC END 		idem	 	Carry 			000011 | 0101 | x | xxxxx
+	CNC END 	idem 	 	NotCarry 		000011 | 0110 | x | xxxxx
+	CGR END 	idem	 	GReater 		000011 | 0111 | x | xxxxx
+	CLE END 	idem 	 	LEsser 			000011 | 1000 | x | xxxxx
+	CEG END 	idem	 	EqualorGreater 		000011 | 1001 | x | xxxxx
+	CEL END 	idem	 	EqualorLesser 		000011 | 1010 | x | xxxxx
+	COV END 	idem	 	Overflow (ULA)		000011 | 1011 | x | xxxxx
+	CNOV END 	idem	 	NotOverflow 		000011 | 1100 | x | xxxxx
+	CN END		idem			Negative (ULA)	000011 | 1101 | x | xxxxx
+	CDZ END		idem  			DivbyZero	000011 | 1110 | x | xxxxx
+
+-----------------------------------------------------------------------------
+6 - Pilha
+-----------------------------------------------------------------------------
+
+	PUSH RX		MEM(SP) <- RX			000101 | RX | 0 | xxxxxx
+			SP--
+
+	PUSH FR		MEM(SP) <- FR			000101 | xxx | 1 | xxxxxx
+			SP--
+
+	POP RX		SP++	 			000110 | RX | 0 | xxxxxx
+			MEM(SP) -> RX
+
+	POP FR		SP++	 			000110 | xxx | 1 | xxxxxx
+			MEM(SP) -> FR
+
+-----------------------------------------------------------------------------
+7 - Controle
+-----------------------------------------------------------------------------
+
+	CLEARC		C<-0 					001000 | 0 | xxxxxxxxx
+	SETC		C<-1 					001000 | 1 | xxxxxxxxx
+	HALT		STOP EXECUTION				001111 | x | xxxxxxxxx
+	NOOP		NO OPERATION				000000 | x | xxxxxxxxx
+	BREAKP		Insert Break Point			001110 | x | xxxxxxxxx
+
+
+
