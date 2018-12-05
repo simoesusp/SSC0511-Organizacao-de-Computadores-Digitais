@@ -1,6 +1,13 @@
 # SSC0511-Organizacao-de-Computadores-Digitais
 SSC0511 - Organização de Computadores Digitais
 
+
+Lista de projetos
+BlackJack: Andrey Garcia, Gabriel Rodrigues Machado, Markel Berestov, Rafaela Souza Silva - https://github.com/GabrielMachado11/BlackJackAssembly
+
+
+
+
 Apresentação da Disciplina
 
 Professor: Eduardo do Valle Simões
