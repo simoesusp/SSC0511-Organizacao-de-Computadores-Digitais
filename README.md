@@ -4,6 +4,8 @@ SSC0511 - Organização de Computadores Digitais
 ### Lista de projetos
 - BlackJack: Andrey Garcia, Gabriel Rodrigues Machado, Markel Berestov, Rafaela Souza Silva - https://github.com/GabrielMachado11/BlackJackAssembly
 
+- Arrow: Gabriel Muniz Morao, Juliana Yendo, Stella Granatto Justo - Repositorio: https://github.com/stellajusto/arrow-assembly | Youtube: https://www.youtube.com/watch?v=qqL6hVRvEkc
+
 - Insira o seu projeto AQUI
 
 
