@@ -4,6 +4,8 @@ SSC0511 - Organização de Computadores Digitais
 ### Lista de projetos
 - BlackJack: Andrey Garcia, Gabriel Rodrigues Machado, Markel Berestov, Rafaela Souza Silva - https://github.com/GabrielMachado11/BlackJackAssembly
 
+- Ultra Alien Fighter: Juliana de Mello Crivelli - https://github.com/jumc/ultra-alien-fighter
+
 - Insira o seu projeto AQUI
 
 
