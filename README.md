@@ -8,7 +8,7 @@ SSC0511 - Organização de Computadores Digitais
 - BlackJack: Andrey Garcia, Gabriel Rodrigues Machado, Markel Berestov, Rafaela Souza Silva - https://github.com/GabrielMachado11/BlackJackAssembly
 - Arrow: Gabriel Muniz Morao, Juliana Yendo, Stella Granatto Justo - Repositorio: https://github.com/stellajusto/arrow-assembly | Youtube: https://www.youtube.com/watch?v=qqL6hVRvEkc
 - Ultra Alien Fighter: Juliana de Mello Crivelli - https://github.com/jumc/ultra-alien-fighter
-
+- Snake: Julio Ng, Caio Ostan - https://github.com/juliongusp/asm
 
 - Insira o seu projeto AQUI
 
