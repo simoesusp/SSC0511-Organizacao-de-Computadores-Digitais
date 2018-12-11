@@ -11,7 +11,7 @@ SSC0511 - Organização de Computadores Digitais
 - Snake: Julio Ng, Caio Ostan - https://github.com/juliongusp/asm
 - Snake Bomb: Raphael Medeiros, Matheus Sanchez, Sergio Piza - https://github.com/rmedeiros23/Snake-Bomb
 
-- Insira o seu projeto AQUI
+- DinoFuga: Victor Momenté, Vinicius Cortizo, João Victor Alves - https://github.com/VictorMomente/AssemblyGame
 
 
 
