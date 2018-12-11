@@ -10,7 +10,7 @@ SSC0511 - Organização de Computadores Digitais
 - Ultra Alien Fighter: Juliana de Mello Crivelli - https://github.com/jumc/ultra-alien-fighter
 
 
-- Insira o seu projeto AQUI
+- DinoFuga: Victor Momenté, Vinicius Cortizo, João Victor Alves - https://github.com/VictorMomente/AssemblyGame
 
 
 
