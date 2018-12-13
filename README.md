@@ -14,7 +14,9 @@ SSC0511 - Organização de Computadores Digitais
 - DinoFuga: Victor Momenté, Vinicius Cortizo, João Victor Alves - https://github.com/VictorMomente/AssemblyGame
 
 - Em Buscar do corote perdido: Marco Antonio Gallo, Murilo Kazumi de Freitas, Rubens Galdino - https://github.com/rubensgaldinojr/assemblygame-corote
--
+
+- Snake: Orlando Pasqual Filho - https://github.com/NirvanaZen/SSC0511-Organizacao-de-Computadores-Digitais
+
 -
 -
 -
