@@ -1,4 +1,4 @@
-# SSC0511-Organizacao-de-Computadores-Digitais
+﻿# SSC0511-Organizacao-de-Computadores-Digitais
 SSC0511 - Organização de Computadores Digitais
 
 ## Tambem copie seus projetos Zipados para a pasta TrabalhosAlunos
@@ -8,12 +8,12 @@ SSC0511 - Organização de Computadores Digitais
 - BlackJack: Andrey Garcia, Gabriel Rodrigues Machado, Markel Berestov, Rafaela Souza Silva - https://github.com/GabrielMachado11/BlackJackAssembly
 - Arrow: Gabriel Muniz Morao, Juliana Yendo, Stella Granatto Justo - Repositorio: https://github.com/stellajusto/arrow-assembly | Youtube: https://www.youtube.com/watch?v=qqL6hVRvEkc
 - Ultra Alien Fighter: Juliana de Mello Crivelli - https://github.com/jumc/ultra-alien-fighter
+- BreakOut: Joao Marco Barros, Leonardo Toledo- Repositorio: https://github.com/JoaoMOBarros/BreakOut
 - Snake: Julio Ng, Caio Ostan - https://github.com/juliongusp/asm
 - Snake Bomb: Raphael Medeiros, Matheus Sanchez, Sergio Piza - https://github.com/rmedeiros23/Snake-Bomb
-
 - DinoFuga: Victor Momenté, Vinicius Cortizo, João Victor Alves - https://github.com/VictorMomente/AssemblyGame
-
 - Em Buscar do corote perdido: Marco Antonio Gallo, Murilo Kazumi de Freitas, Rubens Galdino - https://github.com/rubensgaldinojr/assemblygame-corote
+- Insira o seu projeto AQUI
 -
 -
 -
