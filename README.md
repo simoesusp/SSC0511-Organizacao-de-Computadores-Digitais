@@ -16,6 +16,7 @@ SSC0511 - Organização de Computadores Digitais
 - Snake: Orlando Pasqual Filho - https://github.com/NirvanaZen/SSC0511-Organizacao-de-Computadores-Digitais
 - Snake: Guilherme Queiroz/ Pedro Fazio - https://github.com/Guilherme292/Projeto-Snake-ORG-Comp-I
 - DPJump: Leandro Giusti Mugnaini/Matheus Borges Kamla/Bruno Ribeiro Helou - https://github.com/leandromugnaini/jogoassembly
+- Velha: Caio Alarcon, Denis Alexandre, Bruno Menzzano https://github.com/CaioAlarcon/projetos/tree/master/velha
 - Insira o seu projeto AQUI
 -
 -
