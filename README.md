@@ -15,8 +15,8 @@ SSC0511 - Organização de Computadores Digitais
 - Em Buscar do corote perdido: Marco Antonio Gallo, Murilo Kazumi de Freitas, Rubens Galdino - https://github.com/rubensgaldinojr/assemblygame-corote
 - Snake: Orlando Pasqual Filho - https://github.com/NirvanaZen/SSC0511-Organizacao-de-Computadores-Digitais
 - Snake: Guilherme Queiroz/ Pedro Fazio - https://github.com/Guilherme292/Projeto-Snake-ORG-Comp-I
+- DPJump: Leandro Giusti Mugnaini/Matheus Borges Kamla/Bruno Ribeiro Helou - https://github.com/leandromugnaini/jogoassembly
 - Insira o seu projeto AQUI
-- 
 -
 -
 -
