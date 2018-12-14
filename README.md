@@ -17,7 +17,7 @@ SSC0511 - Organização de Computadores Digitais
 - Snake: Guilherme Queiroz/ Pedro Fazio - https://github.com/Guilherme292/Projeto-Snake-ORG-Comp-I
 - DPJump: Leandro Giusti Mugnaini/Matheus Borges Kamla/Bruno Ribeiro Helou - https://github.com/leandromugnaini/jogoassembly
 - Velha: Caio Alarcon, Denis Alexandre, Bruno Menzzano https://github.com/CaioAlarcon/projetos/tree/master/velha
-- Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Torres Dutra Maia da Costa - https://github.com/LeoBellini/jogo
+- Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Luiz da Silva Genésio - https://github.com/LeoBellini/jogo
 - Insira o seu projeto AQUI
 -
 -
