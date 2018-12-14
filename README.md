@@ -18,6 +18,7 @@ SSC0511 - Organização de Computadores Digitais
 - DPJump: Leandro Giusti Mugnaini/Matheus Borges Kamla/Bruno Ribeiro Helou - https://github.com/leandromugnaini/jogoassembly
 - Velha: Caio Alarcon, Denis Alexandre, Bruno Menzzano https://github.com/CaioAlarcon/projetos/tree/master/velha
 - Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Torres Dutra Maia da Costa - https://github.com/LeoBellini/jogo
+- Donkey Kong: Leonardo Moreira Kobe, Matheus Bernardes dos Santos - https://github.com/lmkobe/DonkeyKongGame
 - Insira o seu projeto AQUI
 -
 -
