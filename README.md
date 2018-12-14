@@ -19,6 +19,10 @@ SSC0511 - Organização de Computadores Digitais
 - Velha: Caio Alarcon, Denis Alexandre, Bruno Menzzano https://github.com/CaioAlarcon/projetos/tree/master/velha
 - Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Torres Dutra Maia da Costa - https://github.com/LeoBellini/jogo
 - Donkey Kong: Leonardo Moreira Kobe, Matheus Bernardes dos Santos - https://github.com/lmkobe/DonkeyKongGame
+- CampoMinado: Beatriz Guidi, Rafael Doering Soares: https://bitbucket.org/bguidi/jogoorgcompbeatrizrafael/src
+- Invasão espacial: Gabriel Dos Santos Brito, Luiz Miguel Saraiva, Rafael Meliani Velloso - https://github.com/RafaelMV123/TRABALHO-DO-SIMOES
+- Hoth: Henrique Freitas, Jayro Boy, Vinícius Finke - https://github.com/JayroBoy/OrgComp2018
+- Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Luiz da Silva Genésio - https://github.com/LeoBellini/jogo
 - Insira o seu projeto AQUI
 -
 -
