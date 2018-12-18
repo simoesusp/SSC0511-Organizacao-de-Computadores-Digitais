@@ -23,8 +23,8 @@ SSC0511 - Organização de Computadores Digitais
 - Invasão espacial: Gabriel Dos Santos Brito, Luiz Miguel Saraiva, Rafael Meliani Velloso - https://github.com/RafaelMV123/TRABALHO-DO-SIMOES
 - Hoth: Henrique Freitas, Jayro Boy, Vinícius Finke - https://github.com/JayroBoy/OrgComp2018
 - Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Luiz da Silva Genésio - https://github.com/LeoBellini/jogo
+- Bomberman: Gustavo Antonio Perin, João Vitor Monteiro, Marcelo Augusto Dos Reis - https://github.com/Bobagi/Bomberman
 - Insira o seu projeto AQUI
--
 -
 -
 -
