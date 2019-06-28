@@ -24,13 +24,11 @@ SSC0511 - Organização de Computadores Digitais
 - Hoth: Henrique Freitas, Jayro Boy, Vinícius Finke - https://github.com/JayroBoy/OrgComp2018
 - Snake Trifásico: Eduardo Zaboto Mirolli, Leonardo Bellini dos Reis, Vinícius Luiz da Silva Genésio - https://github.com/LeoBellini/jogo
 - Bomberman: Gustavo Antonio Perin, João Vitor Monteiro, Marcelo Augusto Dos Reis - https://github.com/Bobagi/Bomberman
-- Insira o seu projeto AQUI
 -ICMC WARS: Gabriel Angelo Sgarbi Cocenza, Ingrid Hiromi Yagui Otani, Maria Vitória do N. Inocencio - https://github.com/gabrielcocenza/ICMC_WARS
--
--
--
--
--
+- Insira o seu projeto AQUI (Para a disciplina de LAB DE ORG vá  para: https://github.com/simoesusp/Processador-ICMC)
+
+
+
 
 
 Apresentação da Disciplina
