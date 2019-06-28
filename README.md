@@ -27,11 +27,13 @@ SSC0511 - Organização de Computadores Digitais
 -ICMC WARS: Gabriel Angelo Sgarbi Cocenza, Ingrid Hiromi Yagui Otani, Maria Vitória do N. Inocencio - https://github.com/gabrielcocenza/ICMC_WARS
 - Insira o seu projeto AQUI (Para a disciplina de LAB DE ORG vá  para: https://github.com/simoesusp/Processador-ICMC)
 
+-
+-
 
 
 
 
-Apresentação da Disciplina
+## Apresentação da Disciplina
 
 Professor: Eduardo do Valle Simões
 Email: Simoes AT icmc.usp.br
